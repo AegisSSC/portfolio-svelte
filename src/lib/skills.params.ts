@@ -7,7 +7,80 @@ const s = (skill: Skill) => skill;
 export type ArrayElementType<ArrayType extends readonly unknown[]> =
 	ArrayType extends readonly (infer ElementType)[] ? ElementType : never;
 
+
+	// !TODO: Get the remaining Icons for CUDA, OpenCV, R Lang, MS SQL, MySql
+	// !TODO: Investigate switching between the Dark and Light Rust Logo depending on "Light" or "Dark" mode. 
 const MY_SKILLS = [
+	s({
+		slug: 'python',
+		color: 'blue',
+		description: 'Python',
+		logo: Assets.Python,
+		name: 'Python'
+	}),
+	s({
+		slug: 'rust',
+		color: 'orange',
+		description: 'Rust',
+		logo: Assets.Rust,
+		name: 'Rust'
+	}),
+	s({
+		slug: 'clang',
+		color: 'blue',
+		description: 'C Programming Language',
+		logo: Assets.C,
+		name: 'C Lang'
+	}),
+	s({
+		slug: 'Cpp',
+		color: 'blue',
+		description: 'C++ Programming Language',
+		logo: Assets.Cpp,
+		name: 'C++'
+	}),
+	s({
+		slug: 'Csharp',
+		color: 'purple',
+		description: 'C# Programming Language',
+		logo: Assets.Csharp,
+		name: 'C#'
+	}),
+	s({
+		slug: 'cuda',
+		color: 'green',
+		description: 'CUDA GPU Programming',
+		logo: Assets.Unknown,
+		name: 'CUDA'
+	}),
+	s({
+		slug: 'opencv',
+		color: 'white',
+		description: 'Open CV Computer Vision Library',
+		logo: Assets.Unknown,
+		name: 'OpenCV'
+	}),
+	s({
+		slug: 'rlang',
+		color: 'red',
+		description: 'R Statistical Programming Language',
+		logo: Assets.Unknown,
+		name: 'R Lang'
+	}),
+	s({
+		slug: 'mssql',
+		color: 'red',
+		description: 'Microsoft SQL Server',
+		logo: Assets.Unknown,
+		name: 'MS SQL'
+	}),
+	s({
+		slug: 'mysql',
+		color: 'red',
+		description: 'MySQL',
+		logo: Assets.Unknown,
+		name: 'MySQL'
+	}),
 	s({
 		slug: 'js',
 		color: 'yellow',
@@ -41,28 +114,19 @@ const MY_SKILLS = [
 		name: 'HTML'
 	}),
 	s({
-		slug: 'sass',
-		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass'
-	}),
-	s({
-		slug: 'reactjs',
-		color: 'cyan',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.ReactJs,
-		name: 'React Js'
-	}),
-	s({
 		slug: 'svelte',
 		color: 'orange',
 		description: svelte,
 		logo: Assets.Svelte,
 		name: 'Svelte'
-	})
+	}),
+	s({
+		slug: 'ros',
+		color: 'green',
+		description: 'ROS or Robotic Operating System',
+		logo: Assets.Svelte,
+		name: 'ROS'
+	}),
 ];
 
 export default MY_SKILLS;

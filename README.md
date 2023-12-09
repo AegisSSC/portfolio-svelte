@@ -18,3 +18,11 @@ Before deploying to `GitHub Pages`:
 ## Known issues:
 
 - Svelte no longer support `node 14`, use a newer version instead.
+
+
+## !TODO: 
+Get the logos for: Intellipack Web App, Rust Data, PowerBI, MSTeams, Github, SNS, OpenCV, CUCECAS EE, CUCECAS ME
+Get the Icons for FastFetch, Freelancer, CCIT, CUCECAS EE, CUCECAS ME
+Get the Icons for Clemson Unviersity and White Knoll Highschool
+Get the remaining Icons for CUDA, OpenCV, R Lang, MS SQL, MySql
+Investigate switching between the Dark and Light Rust Logo depending on "Light" or "Dark" mode. 

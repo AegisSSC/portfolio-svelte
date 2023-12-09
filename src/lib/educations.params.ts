@@ -1,29 +1,42 @@
 import Assets from './data/assets';
 import type { Education } from './types';
+// !TODO: Get the Icons for Clemson Unviersity and White Knoll Highschool
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Bachelors of Science in Computer Science',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'South Carolina, USA',
+		logo: Assets.Unknown, 			//Add in the Clemson University Crest
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
-		shortDescription: '',
+		organization: 'Clemson University',
+		period: { from: new Date(2018, 1, 1), to: new Date(2022, 1, 1) },
+		shortDescription: 'Minor in Engineering',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['Computer Architecture', 'Algorithms and Data Structures', 'C++', 'Java', 'English', 'German', 'GPU Programming', 'Computer Vision', 'High Performance Computing', 'Linear Algebra', 'Operating Systems' ]
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'High School Diploma',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'South Carolina, USA',
+		logo: Assets.Unknown,		//Add in The White Knoll Crest
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'White Knoll High',
+		period: { from: new Date(2014, 0, 1), to: new Date(2018, 1,1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
-	}
+		subjects: ['C', 'Computer Architecture','Algebra', 'Calculus', 'Geometry', 'German']
+	},
+	// {
+	// 	degree: 'PhD of Computer Science',
+	// 	description: '',
+	// 	location: 'USA',
+	// 	logo: Assets.Unknown,
+	// 	name: '',
+	// 	organization: 'MIT',
+	// 	period: { from: new Date(2023, 0, 1) },
+	// 	shortDescription: '',
+	// 	slug: 'dummy-education-item-2',
+	// 	subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+	// }
 ];

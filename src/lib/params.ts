@@ -14,7 +14,7 @@ import {
 } from './types';
 import { Icons } from './utils';
 
-export const TITLE_SUFFIX = 'Slick template with Svelte';
+export const TITLE_SUFFIX = 'Portfolio Powered by Svelte';
 
 export const NavBar = {
 	home: 'Home',
@@ -46,10 +46,10 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Brandon',
+	lastName: 'Wingard',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Hi! My name is Brandon Wingard. I am a full-stack software developer with experience from firmware to IaC. I currently work for FastFetch Corp as a Software Engineer specializing in C/C++/C#, Python, and Rust.',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/' },
 		{
