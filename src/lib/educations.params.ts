@@ -7,7 +7,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		degree: 'Bachelors of Science in Computer Science',
 		description: '',
 		location: 'South Carolina, USA',
-		logo: Assets.Unknown, 			//Add in the Clemson University Crest
+		logo: Assets.ClemsonAcademic, 			//Add in the Clemson University Crest
 		name: '',
 		organization: 'Clemson University',
 		period: { from: new Date(2018, 1, 1), to: new Date(2022, 1, 1) },

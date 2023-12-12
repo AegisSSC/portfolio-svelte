@@ -29,7 +29,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'A Rust driven Data Scraper to connect to Microsoft PowerBI Reporting Software.',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.Rust,
 		name: 'Rust Data Pipeline',
 		period: {
 			from: new Date(2023,6,8)
@@ -94,9 +94,9 @@ const MY_PROJECTS: Array<Project> = [
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Portfolio Website',
 		period: {
-			from: new Date()
+			from: new Date(2023, 11, 9)
 		},
 		skills: getSkills('svelte', 'tailwind'),
 		type: 'Website Template',
@@ -177,7 +177,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Open-CV Driven project investigating tracking of NFL Players from Game Footage',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.OpenCV,
 		name: 'NFL OpenCV',
 		period: {
 			from: new Date(2022,0,1), to: new Date(2022,4,6)
@@ -193,7 +193,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Computational Exploration of Lossy and Lossless Compression Algorithms',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.ClemsonGeneral,
 		name: 'College of Electrical Engineering Research Project',
 		period: {
 			from: new Date(2022,0,1), to: new Date(2022,4,6)
@@ -209,7 +209,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Exploration into Computer Vision Guided Micro Arial Vehicles',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.ClemsonGeneral,
 		name: 'College of Mechanical Engineering Research Project',
 		period: {
 			from: new Date(2020,0,6), to: new Date(2022, 1,1)

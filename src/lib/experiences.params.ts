@@ -46,7 +46,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Student Consulting Lead',
 		color: '#ffffff',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.ClemsonGeneral,
 		shortDescription: ''
 	},
 	{
@@ -61,7 +61,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Undergraduate Researcher',
 		color: '#ffffff',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.ClemsonGeneral,
 		shortDescription: ''
 	},
 	{
@@ -76,7 +76,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Undergraduate Research Assistant',
 		color: '#ffffff',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.ClemsonGeneral,
 		shortDescription: ''
 	},
 

@@ -124,7 +124,7 @@ const MY_SKILLS = [
 		slug: 'ros',
 		color: 'green',
 		description: 'ROS or Robotic Operating System',
-		logo: Assets.Svelte,
+		logo: Assets.ROS,
 		name: 'ROS'
 	}),
 ];
