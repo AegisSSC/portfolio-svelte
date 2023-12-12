@@ -50,35 +50,35 @@ const MY_SKILLS = [
 		slug: 'cuda',
 		color: 'green',
 		description: 'CUDA GPU Programming',
-		logo: Assets.Unknown,
+		logo: Assets.Cuda,
 		name: 'CUDA'
 	}),
 	s({
 		slug: 'opencv',
 		color: 'white',
 		description: 'Open CV Computer Vision Library',
-		logo: Assets.Unknown,
+		logo: Assets.OpenCV,
 		name: 'OpenCV'
 	}),
 	s({
 		slug: 'rlang',
 		color: 'red',
 		description: 'R Statistical Programming Language',
-		logo: Assets.Unknown,
+		logo: Assets.RLang,
 		name: 'R Lang'
 	}),
 	s({
 		slug: 'mssql',
 		color: 'red',
 		description: 'Microsoft SQL Server',
-		logo: Assets.Unknown,
+		logo: Assets.MSSQL,
 		name: 'MS SQL'
 	}),
 	s({
 		slug: 'mysql',
 		color: 'red',
 		description: 'MySQL',
-		logo: Assets.Unknown,
+		logo: Assets.MySQL,
 		name: 'MySQL'
 	}),
 	s({
