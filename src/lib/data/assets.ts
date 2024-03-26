@@ -34,6 +34,7 @@ const a = (light: string, dark?: string): Asset =>
 	Firebase: a('firebase.png'),
 	Flask: a('flask.svg'),
 	Flutter: a('flutter.svg'),
+	Github: a('github-mark.svg', 'github-mark-white.svg'),
 	Go: a('go.svg'),
 	HTML: a('html.svg'),
 	Illustrator: a('illustrator.svg'),
@@ -57,6 +58,7 @@ const a = (light: string, dark?: string): Asset =>
 	Photoshop: a('photoshop.svg'),
 	Postcss: a('postcss.svg'),
 	PostgreSQL: a('postgres.png'),
+	PowerBI: ('PowerBI.png'),
 	Premiere: a('premiere.svg'),
 	Python: a('python.png'),
 	Quasar: a('quasar.svg'),
@@ -73,6 +75,7 @@ const a = (light: string, dark?: string): Asset =>
 	SolidJs: a('solid.svg'),
 	Svelte: a('svelte.png'),
 	Tailwind: a('tailwind.svg'),
+	Teams: a('microsoft-teams-logo.svg'),
 	TypeScript: a('ts.png'),
 	Unknown: a('no-img.svg'),
 	Unocss: a('unocss.svg'),
@@ -80,6 +83,7 @@ const a = (light: string, dark?: string): Asset =>
 	Vitest: a('vitest.svg'),
 	VueJs: a('vue.png'),
 	Xamarin: a('xamarin.svg'),
+	WKHS: a('wkhs.jpg')
 };
 
 export default Assets;

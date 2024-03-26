@@ -6,7 +6,7 @@ import type { Project } from './types';
 // !TODO: Get the logos for: Intellipack Web App, Rust Data, PowerBI, MSTeams, Github, SNS, OpenCV, CUCECAS EE, CUCECAS ME
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'fastfetch-intellipack-web',
+		slug: 'fastfetch-cubing-web-service',
 		color: '#5e95e3',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
@@ -14,11 +14,11 @@ const MY_PROJECTS: Array<Project> = [
 			'A Rust driven web app to host the FastFetch Intellipack Web Application.',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Intellipack Web App',
+		name: 'FastFetch Cubing Web Service',
 		period: {
 			from: new Date(2023,8,8)
 		},
-		skills: getSkills('rust', 'clang', 'csharp', 'mssql'),
+		skills: getSkills('rust', 'clang', 'csharp', 'mysql'),
 		type: 'Software Development'
 	},
 	{
@@ -45,7 +45,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Revision of outdated Reporting software to use Microsoft Power BI',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.PowerBI,
 		name: 'PowerBI Reporting Software',
 		period: {
 			from: new Date(2023, 2,1), to: new Date(2023, 9,1)
@@ -61,7 +61,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Company Wide Initiative to use Internal Communication through Microsoft Teams',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.Teams,
 		name: 'Microsoft Teams Initiative',
 		period: {
 			from: new Date(2023, 1,1), to: new Date(2023, 10, 1)
@@ -77,12 +77,12 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Company Wide Initiative to use a standardized Version Control System',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.Github,
 		name: 'Version Control System Initiative',
 		period: {
 			from: new Date(2022, 11,1), to: new Date(2023, 5, 1)
 		},
-		skills: getSkills(''),
+		skills: getSkills('github'),
 		type: 'Software Integration'
 	},
 	{

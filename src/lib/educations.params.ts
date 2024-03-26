@@ -19,7 +19,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		degree: 'High School Diploma',
 		description: '',
 		location: 'South Carolina, USA',
-		logo: Assets.Unknown,		//Add in The White Knoll Crest
+		logo: Assets.WKHS,		//Add in The White Knoll Crest
 		name: '',
 		organization: 'White Knoll High',
 		period: { from: new Date(2014, 0, 1), to: new Date(2018, 1,1) },

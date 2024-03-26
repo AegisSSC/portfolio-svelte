@@ -49,33 +49,36 @@ export const HOME: HomePageParams = {
 	name: 'Brandon',
 	lastName: 'Wingard',
 	description:
-		'Hi! My name is Brandon Wingard. I am a full-stack software developer with experience from firmware to IaC. I currently work for FastFetch Corp as a Software Engineer specializing in C/C++/C#, Python, and Rust.',
+		'Hi! My name is Brandon Wingard. I am a full-stack software developer with experience from Low Level Firmware on microcontrollers, to a Web Service Optimizer. I currently work for FastFetch of ABCO Systems as a Lead Software Engineer specializing in C/C++/C#, Python, and Rust.',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ 
+			platform: Platform.GitHub, 
+			link: 'https://github.com/AegisSSC' 
+		},
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
+			link: 'https://www.linkedin.com/in/brandon-wingard-4886b7148/'
 		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
-		},
+		// {
+		// 	platform: Platform.Twitter,
+		// 	link: 'https://twitter.com/'
+		// },
+		// {
+		// 	platform: Platform.StackOverflow,
+		// 	link: 'https://stackoverflow.com/'
+		// },
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'wingardbrandonm+web@gmail.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
+		// {
+		// 	platform: Platform.Youtube,
+		// 	link: 'https://www.youtube.com'
+		// },
+		// {
+		// 	platform: Platform.Facebook,
+		// 	link: 'https://www.facebook.com'
+		// }
 	]
 };
 
